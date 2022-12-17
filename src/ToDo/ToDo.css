@@ -1,0 +1,47 @@
+.ToDo{
+    border: 2px solid black;
+    margin: 1px auto;
+    padding: 0;
+    color: black;
+    background-color: beige;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0 4px ;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.checkBox{
+    text-align: center;
+  width: 2rem;
+  width: 30px;
+  min-width: 30px;
+  height: 2rem;
+  height: 30px;
+  min-height: 30px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.FaTrashAlt{
+    padding: 3px;
+    color: black;
+    width: 30px;
+    min-width: 30px;
+    height: 36px;
+    font-size: 1rem;
+    border-left: 3px solid black;
+    transition: 1s ease-in-out;
+    text-align: center;
+}
+
+.FaTrashAlt:hover{
+    color: red;
+    cursor: pointer;
+    transform: scale(1.1);
+}

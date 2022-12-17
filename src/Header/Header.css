@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 140, 195);
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 50px;
+    margin: 2px auto;
+    width: 35%;
+    min-width: 250px;
+    font-size: 2em;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
